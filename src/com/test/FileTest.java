@@ -11,7 +11,7 @@ public class FileTest {
 		className = className.substring(0,className.lastIndexOf("."));
 		System.out.println(className);
 		
-		
+		System.out.println(System.getProperty("user.dir"));
 
 	}
 
